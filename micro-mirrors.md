@@ -45,7 +45,7 @@ mist generation. Filtering device (full mask or mouthpiece) with filter: A. Do n
 | Eye protection (goggles), Full Face shield, Hands protection (rubber gloves), Laboratory gown.|
 
 ### Response Procedures
-Spillage: Contain spillage, and then collect with non-combustible absorbent material, (e.g. sand,
+**Spillage**: Contain spillage, and then collect with non-combustible absorbent material, (e.g. sand,
 earth, diatomaceous earth, vermiculite) and place in container for disposal according to local /
 national regulations. Do not flush with water. Keep in suitable, closed containers for disposal.
 First aid measures: Provide fresh air. In case of breathing difficulties administer oxygen. If victim is at
@@ -57,7 +57,7 @@ open and rinse immediately with large quantities of water, for at least 15 minut
 
 **List emergency contact numbers**
 - Lab in charge: Boulos Alfakes 052 722 6672
-**Civil Defense: 999**
+- **Civil Defense: 999**
 
 ## Handling, Storage and Waste Disposal of Hazardous Materials
 Store all chemicals in labelled containers. Do not fill Trichlorosilane containers, and open slowly to release built up gases. Do not dissolve Trichlorosilane in wate or neutralize.
