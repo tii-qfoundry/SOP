@@ -1,7 +1,7 @@
 # Microfabrication of optical Micro-mirrors
 
-[!WARNING]
-Triclorosilane (F13TCS) is a hazardous chemical. It reacts violently with water (H2O) producing SiO2, chlorine (Cl) gas, hydrogen chloride (HCl) and heat. Spills of trichlorosilane may be neutralized by using NaOH or NaHCO3, per one or two part of trichlorosilane.
+> [!WARNING]
+> Triclorosilane (F13TCS) is a hazardous chemical. It reacts violently with water (H2O) producing SiO2, chlorine (Cl) gas, hydrogen chloride (HCl) and heat. Spills of trichlorosilane may be neutralized by using NaOH or NaHCO3, per one or two part of trichlorosilane.
 
 ![image](https://github.com/tii-qfoundry/SOP/assets/14344419/aabde309-ce50-4a38-96ea-d14960f12dff) ![image](https://github.com/tii-qfoundry/SOP/assets/14344419/5d1ecf5b-9614-4297-beb7-cc6cf63310fb)
 ![image](https://github.com/tii-qfoundry/SOP/assets/14344419/f06a5444-b751-4e2e-8c37-4f0f6753b0d6) ![image](https://github.com/tii-qfoundry/SOP/assets/14344419/b2310d8b-cfdb-4b34-bbc3-2c6f5ce9bcf7)
