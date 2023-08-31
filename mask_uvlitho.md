@@ -1,6 +1,6 @@
 # Masked optical litography (395 nm)
-> [!WARNING]
-> Triclorosilane (F13TCS) is a hazardous chemical. It reacts violently with water (H2O) producing SiO2, chlorine (Cl) gas, hydrogen chloride (HCl) and heat. Spills of trichlorosilane may be neutralized by using NaOH or NaHCO3, per one or two part of trichlorosilane.
+> [!NOTE]
+> Procedure is specified for both positive (exosed area is removed) and negative after image reversal (shadowed area is removed). You need to follow only the steps needed for image inversion when needed.
 
 <img src ="https://github.com/tii-qfoundry/SOP/assets/14344419/aabde309-ce50-4a38-96ea-d14960f12dff" width=80>
 <img src ="https://github.com/tii-qfoundry/SOP/assets/14344419/0f23548a-2527-4fba-8606-0671c52ff9fd" width=80>
