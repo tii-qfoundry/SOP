@@ -67,14 +67,20 @@ with DC-magnetron sputtering. This technique is called RF-magnetron sputtering. 
 
 In addition to Argon, Nitrogen and Oxygen are available 
 for use in reactive ion sputtering applications. In reactive sputtering a reactive gas chemically combines with the target material. The substrate holder can be heated up to 850 C to 
-enhance chemical reactions and allow for the deposited film to sustaing different layer formation processes. The capability to apply RF-power to the substrate holder to sputter clean 
+enhance chemical reactions and allow for the deposited film to sustain different layer formation processes. The capability to apply RF-power to the substrate holder is also available, to sputter clean 
 samples before deposition or further improve chemical reactions prior to depodition. 
 
 <p align="center">
 <img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/bd80a577-b269-4fc4-961e-c6c7a5d3e2b8' width=600>
 </p>
 
-### Load substrate
+### System Checks
+- Check thart the system water flow interlock light located on the top panel is ON (all LEDs in the chill water flow controller on the backside oif the mainframe should be ON).
+- Check that all power supplies, vaccum sensors and pump controllers and the thickness monitor are ON.
+- Check that the manual vent valve in the deposition chamber is CLOSED. Check that the nitrogen intake valve to the system's pumps is OPEN.
+- In normal coinditions, both the load-lock and the deposition chamber should be in vaccum.
+
+### Load a substrate
 #### Step 1: Load the sample in substrate holder
 1. Check that the nitrogen supply is ON, close the loadlock gate valve (3) and turn off the load-lock pump by switching the corresponding vaccum pump breaker in the control panel. This will shut down the turbo pump and start the venting procedure. Wait for the small turbo pump to reach a full stop and then the chamber to be at atmospheric pressure. Then open the load lock cover (5) and remove the subtsrate holder (chuck) after checking that it is at room temperature.
 2. Mount your sample on the substrate holder using any of the screw points or using capton tape. Prefer to use a wafer as a backing material to avoid deposition on the substrate holder.
@@ -87,16 +93,12 @@ samples before deposition or further improve chemical reactions prior to depodit
 9. Manually rotate the holding rod from the angle monitor (1) to the 'lock' position and move up the substrate holder assemply until the transfer rod is cleared.
 10. Move the transfer rod back into the load lock and close the load lock vaccum gate valve. 
 
-<p align="center">
-<img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/b8d964f6-6be2-4d93-a6a1-24220a25698c' width=400>
-</p>
-### System Checks ###
-- Check thart the system water flow interlock light located on the top panel is ON (all LEDs in the chill water flow controller on the backside oif the mainframe should be ON).
-- Check that all power supplies, vaccum sensors and pump controllers and the thickness monitor are ON.
-- Check that the manual vent valve in the deposition chamber is CLOSED. Check that the nitrogen intake valve to the system's pumps is OPEN.
-- In normal coinditions, both the load-lock and the deposition chamber should be in vaccum.
 
-### Deposition ###
+<p align="center">
+<img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/b476a6a6-c9db-4378-816f-1d2c95b9a0b6' width=400>
+</p>
+
+### Deposition 
 #### Step 1: Start the plasma (strike)
 11. Set working distance. This is typically 30 and can be checked for each target.
 12. Optionally turn rotation ON (this is necessary if you want to heat up the substrate).
