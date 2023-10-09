@@ -1,4 +1,4 @@
-# Masked optical litography (395 nm)
+# Magnetron Sputtering with DC and RF sources.
 > [!NOTE]
 > When the AJA Sputterer is turned off, Nitrogen needs to keep flowing until the vaccum turbo pumps have come to a full stop. Then the nitrogen lines need to be manually shut down. Nitrogen must be kept open as long as the vaccum pumps are in use.
 
