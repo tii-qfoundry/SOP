@@ -18,6 +18,8 @@ General standard operating procedure for the AJA Sputter tool. This SOP describe
 This tool can be used to deposit metallic and insulating films (i.e. Aluminum, Niobium, Tantalum, Al2O3) onto a substrate material such as Silicon by sputtering from up to **three** target materials. When depositing insulating 
 or non ferro-magnetic films, targets must be installed in the RF target source.
 
+
+Standard installed targets:
 |Materials| Description | Manufacturer | Maximum Power Density | Rate Monitor Index |
 |---|---|---|---|---|
 |Nibioum Target  | |  | 15.6 W/cm^2 |1|
@@ -31,10 +33,10 @@ or non ferro-magnetic films, targets must be installed in the RF target source.
 |  |  |  |
 
 ### Physical Hazards:
-Heated substrates and parts can be extremely hot and cause severe burns, handle them with care. Intense light will be emitted from the plasma. 
+Heated substrates and parts can be extremely hot and cause severe burns, handle them with care. Intense light will be emitted from the plasma, avoid looking at it directly. 
 
 ### Equipment and Engineering Controls:
-> Cleanroom standard PPE is sufficent. Use a thermometer or thermal camera to test when the substrate, substrate mount and load lock reaches room temperature. 
+> Cleanroom standard PPE is sufficent. Use a thermometer or thermal camera to test when the substrate mount and load lock reaches room temperature. 
 > Always close the viewport shutter when making a run to protect your eyes and prevent deposition on the viewport window, wear UV protecting glasses when inspecting the plasma.
 
 |Personal Protective Equipment |
@@ -43,7 +45,7 @@ Heated substrates and parts can be extremely hot and cause severe burns, handle 
 
 ### Response Procedures
 **Burns**: 
-In case of burns, apply abundant water in the shower outside of the cleanroom and inform a safety officer. For sever burns, avoid covering the injured area and request immediate assistance to be guided to an emergency attention area. Do not attempt to remove clothing or sticked nitrile (latex) gloves.
+In case of burns, apply abundant water in the shower outside of the cleanroom and inform a safety officer, prefer to avoid using DI water direclty on the wound. For severe burns, avoid covering the injured area and request immediate assistance to be guided to an emergency attention area. Do not attempt to remove clothing or sticked nitrile (or latex) gloves.
 
 **List emergency contact numbers**
 - Lab in charge: Boulos Alfakes 052 722 6672
@@ -71,8 +73,14 @@ samples before deposition or further improve chemical reactions prior to depodit
 
 ### Load substrate
 #### Step 1: Load the sample in substrate holder
-Close the gate vaccum valve (3) and turn off the load-lock pump by switching the corresponding vaccum pump breaker in the control panel, this will shut down the turbo piump and start the venting procedure. Wait for the small turbo pump to reach a full stop and 
-then the chamber to be at atmospheric pressure. Then open the load lock cover (5) and remove the subtsrate holder. Mount your sample on the substrate holder using any of the screw points. 
+- Close the loadlock gate valve (3) and turn off the load-lock pump by switching the corresponding vaccum pump breaker in the control panel, this will shut down the turbo pump and start the venting procedure. Wait for the small turbo pump to reach a full stop and then the chamber to be at atmospheric pressure. Then open the load lock cover (5) and remove the subtsrate holder (chuck) after checking that it is at room temperature.
+-  Mount your sample on the substrate holder using any of the screw points or using capton tape. Prefer to use a wafer as a backing material to avoid deposition on the substrate holder.
+-  Install the chuck sample side down into the load-lock, ensuring that the one of the radial lines is aligned with the principal axis of the load lock (pointing left), and that no washers or screws are obstructing the interface with the transfer stage. Close the load-lock's lid cover (5).
+- Place the load lock lid back on and turn the 'Load Lock – Vacuum Pumps' switch the ON position. If the load-lock does not reach base pressure, vent the chamber and clean the lid and the o-ring with IPA.
+- When base ressure is reached (1e-6 tor), manually open the gate valve loosening the safety screw and rotating the handle anti-clock wise.
+- Check that the holding rod is in the upper position, or move it upards by turning antclock wise the holding rod handle.
+- Slowly slide the transfer arm to the left until clamp position is met by rotating the load-lock trasnfer rod handle (6).
+- Ensure top substrate holder angle monitor (1) is aligned to the left mark on the rotation knob (marked as 'unlocked' position). Then slowly move down the holding rod while checking its position through 
 
 #### 
 ![image](https://github.com/tii-qfoundry/SOP/assets/14344419/b8d964f6-6be2-4d93-a6a1-24220a25698c)
