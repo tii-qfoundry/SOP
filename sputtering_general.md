@@ -2,7 +2,7 @@
 > [!NOTE]
 > When the AJA Sputterer is turned off, Nitrogen needs to keep flowing until the vaccum turbo pumps have come to a full stop. Then the nitrogen lines need to be manually shut down. Nitrogen must be kept open as long as the vaccum pumps are in use.
 
-> > [!WARNING]
+> [!WARNING]
 > When the substrate holder is heated, it needs to cool down in the vented load-lock chamber until it reaches a temperature below 50C (approximately 30 min) before any additional process is carried.
 
 | Reference | Publication Date | Revision |
@@ -20,11 +20,12 @@ or non ferro-magnetic films, targets must be installed in the RF target source.
 
 
 Standard installed targets:
-|Materials| Description | Manufacturer | Maximum Power Density | Rate Monitor Index |
-|---|---|---|---|---|
-|Nibioum Target  | |  | 15.6 W/cm^2 |1|
-|Tantalum Target  | |  | 23.2 W/cm^2 |3|
-|Aluminum Target  | |  | 7.8 W/cm^2 |2|
+| Gun | Materials|  Manufacturer | Strike Power | Maximum Power Density | Rate Monitor Index |
+|---|---|---|---|---|---|
+|1 (DC)|Nibioum Target  | | 30 | 15.6 W/cm^2 |1|
+|2 (RF)|Aluminum Target  | | 35 | 7.8 W/cm^2 |2|
+|3 (DC)| Tantalum Target  | | 30 | 23.2 W/cm^2 |3|
+
 
 ##   Hazards
 ### Chemical Hazards:
@@ -90,7 +91,38 @@ samples before deposition or further improve chemical reactions prior to depodit
 
 ### Deposition ###
 #### Step 1: Start the plasma (strike)
+- Set working distance. This is typically 30 and can be checked for each target.
+- Optionally turn rotation ON (this is necessary if you want to heat up the substrate).
+- In the GAS 1 area, ensure that Argon’s STPT (Set-Point) is set to 30sccm and trun on the gas.
+- In the PRESSURE CONTROL area, set the control pressure to 30 psi.
+- Activate the appropiate target gun, check the corresponding power supplies are on (in the mainframe) and set the strike power. Turn on the plasma.
+- Using the viewport check that the plasma is on and in the main panel that there is an appriate voltage feedback (when the plasma is on should be similar to the input power value in Watts).
+>[!NOTE]
+>Note, sometimes the target has a hard time striking, there can be many reasons that this is the case. One common method to help the target strike is to open the shutter (click the large, dark green button) 
+while the target is trying to strike. If this doesn’t work, increase the Ar gas flow but avoid increasing the striking power.
 
+h. Identify the process power for your target. The general rule is that targets can be ramped at a rate of 1W/s. To 
+calculate the necessary ramp time, simply subtract the strike power from the process power.
+i. First, enter the ramp time in the box next to the RAMP (sec) label.
+j. Next, enter the process power where the strike power was, end hit enter on the keyboard. The process power will 
+grey out and the ramp time will start counting down.
+k. Once the ramp time has reached zero and the target is at process power, change the PRESSURE to 3.
+l. If using the thickness monitor, ensure that it is set to the correct film. To change the film, press the Program
+menu and use the scroll wheel to find the desired film. Once on the film, press the scroll wheel to select it, and 
+press the Program button again to exit.
+m. It is important to do the following two steps at the same time. Open the shutter by pressing the large green button 
+and press the Zero button on the thickness monitor.
+n. Ensure the shutter has fully opened by looking in to the view port. If the target plasma is visible the shutter has 
+opened properly. Close the view port shutter.
+o. Once the process time or film thickness has been reached, close the shutter by pressing the now big bright green 
+button.
+p. Change PRESSURE to 30.
+q. First, enter in the same ramp time as calculated in step h.
+r. Next, enter the strike power and hit enter on the keyboard.
+s. Once the ramp time has reached zero, turn off plasma by pressing the green ON button below the pink circle.
+t. Click OPEN in the PRESSURE CONTROLLER section. Turn GAS 1 off by clicking the green ON button. Turn 
+ROTATION off by clicking the green ON button.
+u. Move to step 4. and remove sample
 #### Step 2: Ramp up gun to the deposition voltage
 
 #### Step 3: Deposit your film
