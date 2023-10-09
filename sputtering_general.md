@@ -53,7 +53,7 @@ In case of burns, apply abundant water in the shower outside of the cleanroom an
 - **Civil Defense: 999**
 
 ## Handling, Storage and Waste Disposal of Hazardous Materials
-
+Not applicable.
 
 ## Detailed Fabrication Procedure
 ### Overview
@@ -76,51 +76,68 @@ samples before deposition or further improve chemical reactions prior to depodit
 
 ### Load substrate
 #### Step 1: Load the sample in substrate holder
-- Check that the nitrogen supply is ON, close the loadlock gate valve (3) and turn off the load-lock pump by switching the corresponding vaccum pump breaker in the control panel. This will shut down the turbo pump and start the venting procedure. Wait for the small turbo pump to reach a full stop and then the chamber to be at atmospheric pressure. Then open the load lock cover (5) and remove the subtsrate holder (chuck) after checking that it is at room temperature.
-- Mount your sample on the substrate holder using any of the screw points or using capton tape. Prefer to use a wafer as a backing material to avoid deposition on the substrate holder.
-- Install the chuck sample side down into the load-lock, ensuring that the one of the radial lines is aligned with the principal axis of the load lock (pointing left), and that no washers or screws are obstructing the interface with the transfer stage. Close the load-lock's lid cover (5).
-- Place the load lock lid back on and turn the 'Load Lock – Vacuum Pumps' switch the ON position. If the load-lock does not reach base pressure, vent the chamber and clean the lid and the o-ring with IPA.
-- When base ressure is reached (1e-6 tor), manually open the gate valve loosening the safety screw and rotating the handle anti-clock wise.
-- Check that the holding rod is in the upper position, or move it upards by turning antclock wise the holding rod handle.
-- Slowly slide the transfer arm to the left until clamp position is met by rotating the load-lock trasnfer rod handle (6).
-- Ensure top substrate holder angle monitor (1) is aligned to the left mark on the rotation knob (marked as 'unlocked' position). Then slowly move down the holding rod while checking its position through one of the viewports of the chamber. The key at the tip of the holding rod should slide into the central holes in the chuck and slighlty bend the tranbsfer rod assembly when in place.
-- Manually rotate the holding rod from the angle monitor (1) to the 'lock' position and move up the substrate holder assemply until the transfer rod is cleared.
-- Move the transfer rod back into the load lock and close the load lock vaccum gate valve. 
+1. Check that the nitrogen supply is ON, close the loadlock gate valve (3) and turn off the load-lock pump by switching the corresponding vaccum pump breaker in the control panel. This will shut down the turbo pump and start the venting procedure. Wait for the small turbo pump to reach a full stop and then the chamber to be at atmospheric pressure. Then open the load lock cover (5) and remove the subtsrate holder (chuck) after checking that it is at room temperature.
+2. Mount your sample on the substrate holder using any of the screw points or using capton tape. Prefer to use a wafer as a backing material to avoid deposition on the substrate holder.
+3. Install the chuck sample side down into the load-lock, ensuring that the one of the radial lines is aligned with the principal axis of the load lock (pointing left), and that no washers or screws are obstructing the interface with the transfer stage. Close the load-lock's lid cover (5).
+4. Place the load lock lid back on and turn the 'Load Lock – Vacuum Pumps' switch the ON position. If the load-lock does not reach base pressure, vent the chamber and clean the lid and the o-ring with IPA.
+5. When base pressure is reached (1e-6 tor), manually open the gate valve loosening the safety screw and rotating the handle anti-clock wise.
+6. Check that the holding rod is in the upper position, or move it upards by turning antclock wise the holding rod handle.
+7. Slowly slide the transfer arm to the left until clamp position is met by rotating the load-lock trasnfer rod handle (6).
+8. Ensure top substrate holder angle monitor (1) is aligned to the left mark on the rotation knob (marked as 'unlocked' position). Then slowly move down the holding rod while checking its position through one of the viewports of the chamber. The key at the tip of the holding rod should slide into the central holes in the chuck and slighlty bend the tranbsfer rod assembly when in place.
+9. Manually rotate the holding rod from the angle monitor (1) to the 'lock' position and move up the substrate holder assemply until the transfer rod is cleared.
+10. Move the transfer rod back into the load lock and close the load lock vaccum gate valve. 
 
 <p align="center">
 <img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/b8d964f6-6be2-4d93-a6a1-24220a25698c' width=400>
 </p>
+### System Checks ###
+- Check thart the system water flow interlock light located on the top panel is ON (all LEDs in the chill water flow controller on the backside oif the mainframe should be ON).
+- Check that all power supplies, vaccum sensors and pump controllers and the thickness monitor are ON.
+- Check that the manual vent valve in the deposition chamber is CLOSED. Check that the nitrogen intake valve to the system's pumps is OPEN.
+- In normal coinditions, both the load-lock and the deposition chamber should be in vaccum.
 
 ### Deposition ###
 #### Step 1: Start the plasma (strike)
-- Set working distance. This is typically 30 and can be checked for each target.
-- Optionally turn rotation ON (this is necessary if you want to heat up the substrate).
-- In the GAS 1 area, ensure that Argon’s STPT (Set-Point) is set to 30sccm and trun on the gas.
-- In the PRESSURE CONTROL area, set the control pressure to 30 psi.
-- Activate the appropiate target gun, check the corresponding power supplies are on (in the mainframe) and set the strike power. Turn on the plasma.
-- Using the viewport check that the plasma is on and in the main panel that there is an appriate voltage feedback (when the plasma is on should be similar to the input power value in Watts).
+11. Set working distance. This is typically 30 and can be checked for each target.
+12. Optionally turn rotation ON (this is necessary if you want to heat up the substrate).
+13. In the GAS 1 area, ensure that Argon’s STPT (Set-Point) is set to 30sccm and trun on the gas.
+14. In the PRESSURE CONTROL area, set the control pressure to 30 psi.
+15. Activate the appropiate target gun, check the corresponding power supplies are on (in the mainframe) and set the strike power. Turn on the plasma.
+16. Using the viewport check that the plasma is on and in the main panel that there is an appriate voltage feedback (when the plasma is on should be similar to the input power value in Watts).
 >[!NOTE]
 >Sometimes the target has a hard time striking, there can be many reasons that this is the case. One common method to help the target strike is to open the shutter (click the large, dark green button) 
 while the target is trying to strike. If this doesn’t work, increase the Ar gas flow but avoid increasing the striking power.
 
 #### Step 2: Ramp up gun to the deposition voltage
-- Identify the process power for your target. Targets should be ramped at a rate of 1W/s and never exceed the specified power.
-- Enter the ramp time in the box next to the RAMP (sec) label.
-- Next, enter the process power where the strike power was, end hit enter on the keyboard. The ramp time will start counting down.
-- Once the ramp time has reached zero and the target is at process power, change the PRESSURE to 3 psi.
+17. Set the PRESSURE to 3 psi. 
+18. Identify the process power for your target. Targets should be ramped at a rate of 1W/s and never exceed the specified power.
+19. Enter the ramp time in the box next to the RAMP (sec) label.
+20. Next, enter the process power where the strike power was, end hit enter on the keyboard. The ramp time will start counting down.
+21. Once the ramp time has reached zero and the target is at process power, change the PRESSURE to 3 psi.
 
 You can check the deposition rate using the thickness monitor:
-- Move the thickness mointor/shutter arm to the central position.
-- Set the thickness monitor to the correct film (Press the program menu and use the scroll wheel to find the desired film, then pess the scroll wheel to select it, and 
+22. Move the thickness mointor/shutter arm to the central position.
+23. Set the thickness monitor to the correct film (Press the program menu and use the scroll wheel to find the desired film, then pess the scroll wheel to select it, and 
 press the Program button again to exit).
-- Open the target shutter by pressing the large green button and press the Zero button on the thickness monitor.
-- Close the target shutter first and then move the shutter arm away form the central position once the rate of deposition has been determined.
+24. Open the target shutter by pressing the large green button and press the Zero button on the thickness monitor.
+25. Close the target shutter first and then move the shutter arm away form the central position once the rate of deposition has been determined.
 
 #### Step 3: Deposit your film
+The Sputtering tool has no deposition thickness control, so the film thickness is fully determined by the time the shutter is on.
+26. Open the target shutter.
+27. When the deposition time is completed, close the shutter.
 
-#### Step 3: Ramp source gun down to rest voltage
-
-#### Step 4: Ramp source gun down and shut down
+#### Step 3: Ramp source gun down and trun off gun
+28. Set the power rate of the target power supply to ensure a 1 W/s ramp and set the power to the baseline (~20 W).
+29. When the base power is reached, set the power to 0 W and after a few seconds turn off the gun.
+30. Turn off the gas supplies, sturn off ther the heater and stop the substrate rotation.
+31. If you need a slow cool down of the substrate, leave it to do so in the process chamber, otherwise prepare for unloading the substrate by moving the holding rod up.
 
 ### Unload substrate
+32. Follow the same steps from **Step 1 ** - item 5 to 10, but putting the angle position in the **'lock'** position first, and the in **'unlock'** once the substrate holder is on the trasnfer rod.
+33. Confirm that the vaccum gate valve is closed and then vent the load-lock by turning off the breaker switch in the control panel.
+34. After reaching atmospheric pressure, you can maunally shut the nitrogen gas supply while the sample is cooling down.
+35. Unload the chuck and remove your sample, amking sure to remove any remaining caption tape. Load the chuck back into the load lock and close its lid, confirm that the nitriogen is on and pump down the load-lock. 
 
+## Troubleshooting
+The VAT Vacuum Control Gate valve between the deposition chamber and the turbo pump should be fully open whenever the pump is turned on or when is shutdown to ensure proper equalization of the pressure between the two sides of the turbo. Do not try to open this gate valve when there is a pressure differential in the pump. To equalize in vaccum, let the turbo pump stop by itself and then manually vent the chamber using the auxiliary vent valve. Open the VAT gate valve once atmospheric pressure is reached.
