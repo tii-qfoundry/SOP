@@ -87,7 +87,8 @@ samples before deposition or further improve chemical reactions prior to depodit
 <p align="center">
 <img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/b8d964f6-6be2-4d93-a6a1-24220a25698c' width=400>
 </p>
-### Deposition: 
+
+### Deposition ###
 #### Step 1: Start the plasma (strike)
 
 #### Step 2: Ramp up gun to the deposition voltage
