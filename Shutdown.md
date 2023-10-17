@@ -1,9 +1,9 @@
 # Cleanmroom Shutdown Routine.
 > [!NOTE]
-> The Cleanroom should in general not be shutdown unless systems will be out of operation for over a month or maitenance schedules requires so. Equipment will always change their operational conditions after a shutdown an fabrication recipes need to be tuned accordingly. Some equipment components will have their lifetime reduced when subject to shutdowns.
+> The Cleanroom should in general not be shutdown unless systems will be out of operation for over a month or maitenance schedules requires so. Equipment will always change their operational conditions after a shutdown and fabrication recipes need to be tuned accordingly. Some equipment components will have their lifetime reduced when subject to shutdowns.
 
 > [!WARNING]
-> When the substrate holder is heated, it needs to cool down in the vented load-lock chamber until it reaches a temperature below 50C (approximately 30 min) before any additional process is carried.
+> Turbo pumps need to come to full stop before vent lines are closed to avoid them staying at mechanical resonance points for long time.
 
 | Reference | Publication Date | Revision |
 |----|----|----|
