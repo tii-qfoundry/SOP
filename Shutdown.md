@@ -56,7 +56,7 @@ This SOP describes the shutdown procedures for each individual system.
 #### System Shutdown
 - Press the *Standby* button in the ebeam body and wait for 2 minutes.
 - Press the *off* button.
-- Close the compressed air and nitrogen lines.
+- Close the compressed air, water and nitrogen lines.
 - Go to the main power switch (outside of the cleanroom, on top of the power distribution cabinet) and set the switch to the *OFF* position. All units in the rack should now be disconnected from the supply.
 
 ### AJA Sputtering System
