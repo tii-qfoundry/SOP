@@ -118,6 +118,7 @@ while the target is trying to strike. If this doesn’t work, increase the Ar ga
 21. Once the ramp time has reached zero and the target is at process power, change the PRESSURE to 3 psi.
 
 You can check the deposition rate using the thickness monitor:
+
 22. Move the thickness mointor/shutter arm to the central position.
 23. Set the thickness monitor to the correct film (Press the program menu and use the scroll wheel to find the desired film, then pess the scroll wheel to select it, and 
 press the Program button again to exit).
@@ -126,16 +127,19 @@ press the Program button again to exit).
 
 #### Step 3: Deposit your film
 The Sputtering tool has no deposition thickness control, so the film thickness is fully determined by the time the shutter is on.
+
 26. Open the target shutter.
 27. When the deposition time is completed, close the shutter.
 
-#### Step 3: Ramp source gun down and trun off gun
+#### Step 3: Ramp source gun down and turn off gun
+
 28. Set the power rate of the target power supply to ensure a 1 W/s ramp and set the power to the baseline (~20 W).
 29. When the base power is reached, set the power to 0 W and after a few seconds turn off the gun.
 30. Turn off the gas supplies, sturn off ther the heater and stop the substrate rotation.
 31. If you need a slow cool down of the substrate, leave it to do so in the process chamber, otherwise prepare for unloading the substrate by moving the holding rod up.
 
 ### Unload substrate
+
 32. Follow the same steps from **Step 1 ** - item 5 to 10, but putting the angle position in the **'lock'** position first, and the in **'unlock'** once the substrate holder is on the trasnfer rod.
 33. Confirm that the vaccum gate valve is closed and then vent the load-lock by turning off the breaker switch in the control panel.
 34. After reaching atmospheric pressure, you can maunally shut the nitrogen gas supply while the sample is cooling down.
