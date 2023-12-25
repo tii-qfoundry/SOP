@@ -28,13 +28,10 @@ Short (max 5 lines) description of the process and rationale of this SOP.
 Equipment: (List all equipment used).
 | Item |  Equipment | Description | Manufacturer | Manual |
 |---|---|---|---|---|
-|1 | Accretech SS10   | | Accretech | |
-|2 | Laminator   | | | |
-|3 | Acid Fume hood   | | | |
-|4 | Solvent Fume hood   | | | |
-|5 | Spin Coater   | | | |
-|6 | Sonicator   | | | |
-|7 | Hot Plate   | | | |
+|1 |   | |  | |
+|2 |    | | | |
+|3 |    | | | |
+
 
 Materials: (List all consumables).
 | Item |  Materials | Description | Manufacturer | MSDS |
