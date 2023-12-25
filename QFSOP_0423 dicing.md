@@ -5,7 +5,8 @@
 > [!WARNING]
 > Do not open either of the lids while the dicing saw motor is running.
 
-<img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=80> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=80> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg" width=80> <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ISO_7010_M016.svg/120px-ISO_7010_M016.svg.png" width=70>
+<img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=80> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=80> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg" width=80> <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ISO_7010_M016.svg/120px-ISO_7010_M016.svg.png" width=70> <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/ISO_7010_M004.svg/265px-ISO_7010_M004.svg.png?20220405120016" width=70>
+
 
 
 | Reference | Publication Date | Revision |
@@ -18,7 +19,6 @@ Florent Ravaux
 
 ##   Description
 Cutting 4-inch silicon wafer into 12 separate 22mm x 22mm samples 
-
 
 Equipment:
 | Item |  Equipment | Description | Manufacturer | Manual |
@@ -52,45 +52,54 @@ Materials:
 | NMP | H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness H335 (100%): May cause respiratory irritation, H360 (97.78%): May damage fertility or the unborn child | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> <img width=300> |
 
 ### Physical Hazards:
-Heated substrates and parts can be extremely hot and cause severe burns, handle them with care. Intense light will be emitted from the plasma, avoid looking at it directly. 
+Fast moving blades. 
+
+### Administrative Controls:
+All the process needs to be carried insikde the facilities of the quantum foundry, during working hours (8 am to 6pm).
+User needs to be trained and authorized ti use the equipment before excecuting this procedure.
 
 ### Equipment and Engineering Controls:
-> Cleanroom standard PPE is sufficent. Use a thermometer or thermal camera to test when the substrate mount and load lock reaches room temperature. 
-> Always close the viewport shutter when making a run to protect your eyes and prevent deposition on the viewport window, wear UV protecting glasses when inspecting the plasma.
+> Cleanroom standard PPE is sufficent.
+> Always confirm that the work covers are well closed before starting a cut.
+- Do not open the covers while the machine is in operation. Do not operate the machine with the covers removed.
+- If there is an accident while operating the machine, press the EMO switch and stop the machine.
+- Before working inside the machine, caution the personnel working around the machine not to operate with the touch-panel screen.
+- Before operating the cutting unit, confirm there is no interfering object within the working range. Before starting operation, make sure that there are no foreign objects, such as tools, inside the machine.
+- Never release the cover interlock while the machine is in operation.
 
 |Personal Protective Equipment |
 |---|
 | Clenaroom gown. Latex or nitrile gloves.|
 
 ### Response Procedures
-**Burns**: 
-In case of burns, apply abundant water in the shower outside of the cleanroom and inform a safety officer, prefer to avoid using DI water direclty on the wound. For severe burns, avoid covering the injured area and request immediate assistance to be guided to an emergency attention area. Do not attempt to remove clothing or sticked nitrile (or latex) gloves.
+**First Aid**: 
+Physical Cut: When possible use the cleanroom first aid kit to contain any body fluids and seek first aid assistance. For deep cuts or 
+Chemical Skin contact: Solution may cause skin burns. Remove contaminated clothing. Flush the affected area with copious amounts of water for at least 15 minutes. Seek medical attention. 
+Eye contact: Solution is irritating to eyes. Flush contaminated eye(s) immediately with copious amounts of water for at least 15 minutes. Seek medical attention immediately. 
+
+**Spill Response**:
+Minor spills can be diluted and neutralized with acid neutralizer spill kit. Large spills should be contained. 
+
+**Fire Response**:
+Do not use water. If water is added to concentrate acid a severe eruption may result. Use a carbon dioxide or dry chemical extinguisher. 
 
 **List emergency contact numbers**
 - Lab in charge: Boulos Alfakes 052 722 6672
 - **Civil Defense: 999**
 
 ## Handling, Storage and Waste Disposal of Hazardous Materials
-Not applicable.
+### Waste management
+- Throw away the used tape in the general waste bin. 
+- Throw away the pipette and the wipes contaminated with the S1805 resist in the Hazardous contaminated bin. 
+- Throw away the wipes contaminated with IPA, acetone and NMP in the solvent contaminated bin. 
+- Pour NMP, IPA and Acetone in the cup sinks of the solvent wet bench. 
 
 ## Detailed Fabrication Procedure
 ### Overview
-In the sputtering process, gas ions (typically Argon) are created in a plasma and accelerated into a target material. The impacting ions cause material to be removed (“sputtered”) 
-from the target and deposited on a substrate in the vicinity of the target. To enable ignition of the plasma, the gas pressure is typically maintained in the range of 30-50 mtorr. 
-In DC-sputtering a negative target potential is applied to accelerate the positively charged ions to the target. The impacting ions also create energetic secondary electrons that 
-cause further ionization of the gas and a ring of magnets is placed below the target to trap and circulate the secondary electrons to further ignite the plasma. This is process is 
-referred to as magnetron sputtering. All three sputter guns in the QFoundry use magnetron sputtering to increase the gas ionization rate and, hence, the deposition rate. DC-sputtering is limited 
-to conducting materials like metals and doped semiconductors. For insulating materials, a radio frequency AC-voltage is applied to the target to prevent the charge buildup associated
-with DC-magnetron sputtering. This technique is called RF-magnetron sputtering. Gun number **2** is an RF-magnetron source. 
+A didcing saw (the machine) is designed to cut a workpiece (the substrate) precisely with ultra-thin outer-peripheral-cutter diamond blades which are rotated at high speed by super-precise air-spindles having high-speed motors. The machine sets the workpiece manually. The cutting position is determined 
+automatically by an alignment function that uses image processing, or manually using multiple alignemnt position refrence points. Cutting and cleaning is performed automatically based on the data stored in the machine (recipe). The workpiece is unloaded manually.
+During a normal cutting operqation, constant flow of DI water is required for blade cooling and to remove burr. The cutting motor is a high speed air spindle, reaching speeds as high as 60000 rpm, anmd cut speeds (translation) of a few mm/s. The spindle is fixed at a single position and can perfoirm cuts only in straight lines accross the sample.
 
-In addition to Argon, Nitrogen and Oxygen are available 
-for use in reactive ion sputtering applications. In reactive sputtering a reactive gas chemically combines with the target material. The substrate holder can be heated up to 850 C to 
-enhance chemical reactions and allow for the deposited film to sustain different layer formation processes. The capability to apply RF-power to the substrate holder is also available, to sputter clean 
-samples before deposition or further improve chemical reactions prior to depodition. 
-
-<p align="center">
-<img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/bd80a577-b269-4fc4-961e-c6c7a5d3e2b8' width=600>
-</p>
 
 ### System Checks
 - Check thart the system water flow interlock light located on the top panel is ON (all LEDs in the chill water flow controller on the backside oif the mainframe should be ON).
@@ -98,70 +107,29 @@ samples before deposition or further improve chemical reactions prior to depodit
 - Check that the manual vent valve in the deposition chamber is CLOSED. Check that the nitrogen intake valve to the system's pumps is OPEN.
 - In normal coinditions, both the load-lock and the deposition chamber should be in vaccum.
 
-### Load a substrate
-#### Step 1: Load the sample in substrate holder
-1. Check that the nitrogen supply is ON, close the loadlock gate valve (3) and turn off the load-lock pump by switching the corresponding vaccum pump breaker in the control panel. This will shut down the turbo pump and start the venting procedure. Wait for the small turbo pump to reach a full stop and then the chamber to be at atmospheric pressure. Then open the load lock cover (5) and remove the subtsrate holder (chuck) after checking that it is at room temperature.
-2. Mount your sample on the substrate holder using any of the screw points or using capton tape. Prefer to use a wafer as a backing material to avoid deposition on the substrate holder.
-3. Install the chuck sample side down into the load-lock, ensuring that the one of the radial lines is aligned with the principal axis of the load lock (pointing left), and that no washers or screws are obstructing the interface with the transfer stage. Close the load-lock's lid cover (5).
-4. Place the load lock lid back on and turn the 'Load Lock – Vacuum Pumps' switch the ON position. If the load-lock does not reach base pressure, vent the chamber and clean the lid and the o-ring with IPA.
-5. When base pressure is reached (1e-6 tor), manually open the gate valve loosening the safety screw and rotating the handle anti-clock wise.
-6. Check that the holding rod is in the upper position, or move it upards by turning antclock wise the holding rod handle.
-7. Slowly slide the transfer arm to the left until clamp position is met by rotating the load-lock trasnfer rod handle (6).
-8. Ensure top substrate holder angle monitor (1) is aligned to the left mark on the rotation knob (marked as 'unlocked' position). Then slowly move down the holding rod while checking its position through one of the viewports of the chamber. The key at the tip of the holding rod should slide into the central holes in the chuck and slighlty bend the tranbsfer rod assembly when in place.
-9. Manually rotate the holding rod from the angle monitor (1) to the 'lock' position and move up the substrate holder assemply until the transfer rod is cleared.
-10. Move the transfer rod back into the load lock and close the load lock vaccum gate valve. 
+### Cutting Procedure
+#### Step 1: Prepare the substrate for cutting
+1. Install the wafer in the spin coater. 
+2. Coat the wafer with a layer of S1805 resist using a 5 mL pipette. 
+3. Start the recipe with the spin coater interface. 
+4. Once the recipe is finished, bake the wafer at 100 C for 1 minute on the hot plate.
+5. Place the substrate on the center of the laminator with the resist facing the vacuum chuck and the flat of the substrate on the right.
+6. Install a mounting frame, using the flat side to the right.
+7. Pull the tape to the bottom of the vacuum check and apply the tape to the wafer, covering both the substrate and the metal frame.
+8. Check that no bubbles remain on the substrate, and if so using a ruler carefully push them out.
 
-
-<p align="center">
-<img src ='https://github.com/tii-qfoundry/SOP/assets/14344419/b476a6a6-c9db-4378-816f-1d2c95b9a0b6' width=400>
-</p>
-
-### Deposition 
-#### Step 1: Start the plasma (strike)
-11. Set working distance. This is typically 30 and can be checked for each target.
-12. Optionally turn rotation ON (this is necessary if you want to heat up the substrate).
-13. In the GAS 1 area, ensure that Argon’s STPT (Set-Point) is set to 30sccm and trun on the gas.
-14. In the PRESSURE CONTROL area, set the control pressure to 30 psi.
-15. Activate the appropiate target gun, check the corresponding power supplies are on (in the mainframe) and set the strike power. Turn on the plasma.
-16. Using the viewport check that the plasma is on and in the main panel that there is an appriate voltage feedback (when the plasma is on should be similar to the input power value in Watts).
->[!NOTE]
->Sometimes the target has a hard time striking, there can be many reasons that this is the case. One common method to help the target strike is to open the shutter (click the large, dark green button) 
-while the target is trying to strike. If this doesn’t work, increase the Ar gas flow but avoid increasing the striking power.
-
-#### Step 2: Ramp up gun to the deposition voltage
-17. Set the PRESSURE to 3 psi. 
-18. Identify the process power for your target. Targets should be ramped at a rate of 1W/s and never exceed the specified power.
-19. Enter the ramp time in the box next to the RAMP (sec) label.
-20. Next, enter the process power where the strike power was, end hit enter on the keyboard. The ramp time will start counting down.
-21. Once the ramp time has reached zero and the target is at process power, change the PRESSURE to 3 psi.
-
-You can check the deposition rate using the thickness monitor:
-
-22. Move the thickness mointor/shutter arm to the central position.
-23. Set the thickness monitor to the correct film (Press the program menu and use the scroll wheel to find the desired film, then pess the scroll wheel to select it, and 
-press the Program button again to exit).
-24. Open the target shutter by pressing the large green button and press the Zero button on the thickness monitor.
-25. Close the target shutter first and then move the shutter arm away form the central position once the rate of deposition has been determined.
-
-#### Step 3: Deposit your film
-The Sputtering tool has no deposition thickness control, so the film thickness is fully determined by the time the shutter is on.
-
-26. Open the target shutter.
-27. When the deposition time is completed, close the shutter.
-
-#### Step 3: Ramp source gun down and turn off gun
-
-28. Set the power rate of the target power supply to ensure a 1 W/s ramp and set the power to the baseline (~20 W).
-29. When the base power is reached, set the power to 0 W and after a few seconds turn off the gun.
-30. Turn off the gas supplies, sturn off ther the heater and stop the substrate rotation.
-31. If you need a slow cool down of the substrate, leave it to do so in the process chamber, otherwise prepare for unloading the substrate by moving the holding rod up.
-
-### Unload substrate
-
-32. Follow the same steps from **Step 1** - item 5 to 10, but putting the angle position in the **'lock'** position first, and the in **'unlock'** once the substrate holder is on the trasnfer rod.
-33. Confirm that the vaccum gate valve is closed and then vent the load-lock by turning off the breaker switch in the control panel.
-34. After reaching atmospheric pressure, you can maunally shut the nitrogen gas supply while the sample is cooling down.
-35. Unload the chuck and remove your sample, amking sure to remove any remaining caption tape. Load the chuck back into the load lock and close its lid, confirm that the nitriogen is on and pump down the load-lock. 
+#### Step 2: Cut the substrate and clean
+9. Turn on the Accretech SS10, the exhaust and open the compressed air. 
+10. Load the substrate holder frame withb the flat towards you, in the machine. 
+11. Select the recipe.
+12. Align the sample and start dicing on both channels. 
+13. Unload the wafer holder and detach the 22 mm x 22 m pieces from the tape. 
+14. Dip each sample in NMP bath at 70 C for 5 minutes. 
+15. Dip each sample in acetone bath at room temperature for 5 minutes using the sonicator. 
+16. Dip each sample in IPA bath at room temperature for 5 minutes using the sonicator. 
+17. Dry each sample using nitrogen gun. 
+18. Pour IPA/NMP and Acetone in the solvent cup sink 
+19. Rince the beakers 
 
 ## Troubleshooting
 The VAT Vacuum Control Gate valve between the deposition chamber and the turbo pump should be fully open whenever the pump is turned on or when is shutdown to ensure proper equalization of the pressure between the two sides of the turbo. Do not try to open this gate valve when there is a pressure differential in the pump. To equalize in vaccum, let the turbo pump stop by itself and then manually vent the chamber using the auxiliary vent valve. Open the VAT gate valve once atmospheric pressure is reached.
