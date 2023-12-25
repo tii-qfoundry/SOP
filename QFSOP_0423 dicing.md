@@ -39,14 +39,17 @@ Materials:
 |3 | S1805 resist   | CAS 108-65-6  | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/2-Methoxypropyl-acetate) |
 |4 | Acetone    | CAS: 67-64-1 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/180#datasheet=LCSS) |
 |5 | Isopropanol   | CAS: 67-63-0 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/3776#datasheet=LCSS) |
-|6 | N-Methyl-2-pyrrolidone   | CAS: 872-50-4 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/13387#datasheet=LCSS)|
+|6 | N-Methyl-2-pyrrolidone (NMP) | CAS: 872-50-4 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/13387#datasheet=LCSS)|
 
  
 ##   Hazards
 ### Chemical Hazards:
-|Chemicals|**Hazard Statements**|Safety Sign|
+|Chemicals|**Hazard Statements**| Safety Sign |
 |---|---|---|
-|  |  |  |
+| S1805 resist | H226 (100%): Flammable liquid and vapor. H335 (100%): May cause respiratory irritation H360 (98.78%): May damage fertility or the unborn child | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg" width=50> | 
+| Acetone | H225 (99.98%): Highly Flammable liquid and vapor, H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> |
+| Isopropanol | H225 (99.98%): Highly Flammable liquid and vapor, H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> |
+| NMP | H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness H335 (100%): May cause respiratory irritation, H360 (97.78%): May damage fertility or the unborn child | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> <img width=300> |
 
 ### Physical Hazards:
 Heated substrates and parts can be extremely hot and cause severe burns, handle them with care. Intense light will be emitted from the plasma, avoid looking at it directly. 
