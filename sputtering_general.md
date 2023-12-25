@@ -23,7 +23,7 @@ Standard installed targets:
 | Gun | Materials|  Manufacturer | Strike Power | Max. Power Density | Deposition Power / Rate |
 |---|---|---|---|---|---|
 |1 (DC)|Nibioum Target  | AJA | 30 | 15.6 W/cm^2 | 100 W / #.## nm/s
-|2 (RF)|Aluminum Target  | AJA | 35 | 7.8 W/cm^2 | 200 W / #.## nm/s
+|2 (RF)|Aluminum Target  | AJA | 35 | 7.8 W/cm^2 | 200 W / 0.4 nm/s (Dec. 1st 2023)
 |3 (DC)| Tantalum Target  | AJA | 30 | 23.2 W/cm^2 | 100 W / #.## nm/s
 
 
