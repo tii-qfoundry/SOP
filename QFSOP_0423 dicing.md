@@ -10,11 +10,11 @@
 
 | Reference | Publication Date | Revision |
 |----|----|----|
-|QFR0323 | Oct. 06 2023 | 0 |
-
+|TII_HSE_QRC_SO Dicing | May. 30 2023 | 0 |
+|QFSOP_0423 | Dec. 25 2023 | 0 |
 
 **Authors**
-Juan Villegas
+Florent Ravaux
 
 ##   Description
 Cutting 4-inch silicon wafer into 12 separate 22mm x 22mm samples 
