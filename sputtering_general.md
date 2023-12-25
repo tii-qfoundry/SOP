@@ -140,7 +140,7 @@ The Sputtering tool has no deposition thickness control, so the film thickness i
 
 ### Unload substrate
 
-32. Follow the same steps from **Step 1 ** - item 5 to 10, but putting the angle position in the **'lock'** position first, and the in **'unlock'** once the substrate holder is on the trasnfer rod.
+32. Follow the same steps from **Step 1** - item 5 to 10, but putting the angle position in the **'lock'** position first, and the in **'unlock'** once the substrate holder is on the trasnfer rod.
 33. Confirm that the vaccum gate valve is closed and then vent the load-lock by turning off the breaker switch in the control panel.
 34. After reaching atmospheric pressure, you can maunally shut the nitrogen gas supply while the sample is cooling down.
 35. Unload the chuck and remove your sample, amking sure to remove any remaining caption tape. Load the chuck back into the load lock and close its lid, confirm that the nitriogen is on and pump down the load-lock. 
