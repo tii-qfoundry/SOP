@@ -96,7 +96,7 @@ Do not use water. If water is added to concentrate acid a severe eruption may re
 
 ## Detailed Fabrication Procedure
 ### Overview
-A didcing saw (the machine) is designed to cut a workpiece (the substrate) precisely with ultra-thin outer-peripheral-cutter diamond blades which are rotated at high speed by super-precise air-spindles having high-speed motors. The machine sets the workpiece manually. The cutting position is determined 
+A dicing saw (the machine) is designed to cut a workpiece (the substrate) precisely with ultra-thin outer-peripheral-cutter diamond blades which are rotated at high speed by super-precise air-spindles having high-speed motors. The machine sets the workpiece manually. The cutting position is determined 
 automatically by an alignment function that uses image processing, or manually using multiple alignemnt position refrence points. Cutting and cleaning is performed automatically based on the data stored in the machine (recipe). The workpiece is unloaded manually.
 During a normal cutting operqation, constant flow of DI water is required for blade cooling and to remove burr. The cutting motor is a high speed air spindle, reaching speeds as high as 60000 rpm, anmd cut speeds (translation) of a few mm/s. The spindle is fixed at a single position and can perfoirm cuts only in straight lines accross the sample.
 
