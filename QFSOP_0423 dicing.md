@@ -1,4 +1,4 @@
-# Dicing 22mm x 22mm silicon substrate
+# General Dicing of Substrates
 > [!NOTE]
 > When the dicing saw starts the cooling water system, a drop of pressure may force the system to nhalt the dicing saw motor. TRo avoid thiss, always manually sytart the warter system before starting the cutting job.
 
