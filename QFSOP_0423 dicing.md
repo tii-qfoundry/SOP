@@ -132,4 +132,4 @@ During a normal cutting operqation, constant flow of DI water is required for bl
 19. Rince the beakers 
 
 ## Troubleshooting
-The VAT Vacuum Control Gate valve between the deposition chamber and the turbo pump should be fully open whenever the pump is turned on or when is shutdown to ensure proper equalization of the pressure between the two sides of the turbo. Do not try to open this gate valve when there is a pressure differential in the pump. To equalize in vaccum, let the turbo pump stop by itself and then manually vent the chamber using the auxiliary vent valve. Open the VAT gate valve once atmospheric pressure is reached.
+
