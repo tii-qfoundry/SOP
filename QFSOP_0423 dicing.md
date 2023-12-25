@@ -36,11 +36,11 @@ Materials:
 |---|---|---|---|---|
 |1 | Silicon Wafer   | | University Wafers | |
 |2 | Dicing tape    | | | |
-|3 | S1805 resist   | CAS 108-65-6  | | [PubChem](https://pubchem.ncbi.nlm.nih.gov/compound/2-Methoxypropyl-acetate) |
-|4 | Solvent Fume hood   | | | |
-|5 | Spin Coater   | | | |
-|6 | Sonicator   | | | |
-|7 | Hot Plate   | | | |
+|3 | S1805 resist   | CAS 108-65-6  | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/2-Methoxypropyl-acetate) |
+|4 | Acetone    | CAS: 67-64-1 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/180#datasheet=LCSS) |
+|5 | Isopropanol   | CAS: 67-63-0 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/3776#datasheet=LCSS) |
+|6 | N-Methyl-2-pyrrolidone   | CAS: 872-50-4 | | [MSDS](https://pubchem.ncbi.nlm.nih.gov/compound/13387#datasheet=LCSS)|
+
  
 ##   Hazards
 ### Chemical Hazards:
