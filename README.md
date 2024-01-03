@@ -1,7 +1,7 @@
 # QFoundry Standard Operating Procedures
 
 ## Lithography
-- **QFSOP_1023** [ ]: Spin Coating [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_1023.md)
+- **QFSOP_1023** [ ] : Spin Coating [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_1023.md)
 - **QFSOP_0223** [ ]: Masked UV photolitography [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_0223.md)
 - **QFSOP_0623** [ ]: Direct Laser Writing [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_0623.md)
 - **QFSOP_0823** [ ]: Electron Beam Lithography [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_0823.md)
