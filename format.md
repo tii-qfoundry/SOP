@@ -55,13 +55,15 @@ Materials: (List all consumables).
 
 ### Administrative Controls:
 > A second user needs to assist the primary operator at all time.
-(Enumarate any administrative precautions needed to safely carry out this procedure)
-All the process needs to be carried inside the facilities of the quantum foundry, during working hours (8 am to 6pm).
-User needs to be trained and authorized to use the equipment before excecuting this procedure.
+
+(List any administrative precautions needed to safely carry out this procedure)
+- All the process needs to be carried inside the facilities of the quantum foundry, during working hours (8 am to 6pm).
+- User needs to be trained and authorized to use the equipment before excecuting this procedure.
 
 ### Equipment, Engineering Controls and Precaution:
 > Cleanroom standard PPE is sufficent.
-(Enumarate any precautions and protective equipment needed to safely carry out this procedure)
+
+(List any precautions and protective equipment needed to safely carry out this procedure)
 
 |Personal Protective Equipment |
 |---|
