@@ -132,4 +132,4 @@ During a normal cutting operqation, constant flow of DI water is required for bl
 19. Rince the beakers 
 
 ## Troubleshooting
-
+- The water supply pressure may drop at the start of the cut causing the machine to halt. To prevent this manually start the water supply and the spindle before the start of the cut sequence.
