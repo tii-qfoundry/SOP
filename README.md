@@ -7,7 +7,7 @@
 - **QFSOP_0823** [ ]: Electron Beam Lithography [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_0823.md)
 
 ## Material Deposition
-- **QFSOP_0323** [ ]: Standard Sputtering [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Material_Deposition/QFSOP_0323.md)
+- **QFSOP_0323** [x]: Standard Sputtering [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Material_Deposition/QFSOP_0323.md)
 - **QFSOP_0723** [ ]: EBeam vaporation of Aluminum Layers [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Material_Deposition/QFSOP_0723.md)
 
 
@@ -16,8 +16,8 @@
 
 
 ## Others
-- **QFSOP_0523** [ ]: Cleanroom Shutdown [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_0523.md) 
-- **QFSOP_0123** [ ]: Microfabrication of micro-mirrors [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_0123.md)
-- **QFSOP_0423** [ ]: Substrate Dicing [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_0423.md)
+- **QFSOP_0523** [x]: Cleanroom Shutdown [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_0523.md) 
+- **QFSOP_0123** [x]: Microfabrication of micro-mirrors [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_0123.md)
+- **QFSOP_0423** [x]: Substrate Dicing [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_0423.md)
 - **QFSOP_1123** [ ]: Wire Bonding [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Others/QFSOP_1123.md)
 
