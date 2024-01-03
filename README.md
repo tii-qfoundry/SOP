@@ -6,12 +6,12 @@
 - **QFSOP_0623**: Direct Laser Writing [SOP](https://github.com/tii-qfoundry/SOP/blob/main/QFSOP_0623.md)
 - **QFSOP_0823**: Electron Beam Lithography [SOP](https://github.com/tii-qfoundry/SOP/blob/main/QFSOP_0823.md)
 
-## Deposition
+## Material Deposition
 - **QFSOP_0323**: Standard Sputtering [SOP](https://github.com/tii-qfoundry/SOP/blob/main/sputtering_general.md)
 - **QFSOP_0723**: EBeam vaporation of Aluminum Layers [SOP](https://github.com/tii-qfoundry/SOP/blob/main/QFSOP_0723.md)
 
 
-## Etching
+## Material Removal
 - **QFSOP_0923**: Aluminum Lift Off [SOP](https://github.com/tii-qfoundry/SOP/blob/main/QFSOP_0923.md)
 - 
 ## Others
