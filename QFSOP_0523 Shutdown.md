@@ -8,6 +8,7 @@
 | Reference | Publication Date | Revision |
 |----|----|----|
 |QFR0423 | Oct. 17 2023 | 0 |
+|QFSOP_0523 | Oct. 17 2023 | 1 |
 
 
 **Authors**
@@ -53,6 +54,7 @@ This SOP describes the shutdown procedures for each individual system.
 - Set *Column Stop* mode in the RAITH software suite, and wait for the column to shut down.
 - Close all windows and exit the software.
 - Turn off the computer from windows.
+- 
 #### System Shutdown
 - Press the *Standby* button in the ebeam body and wait for 2 minutes.
 - Press the *off* button.
@@ -60,8 +62,23 @@ This SOP describes the shutdown procedures for each individual system.
 - Go to the main power switch (outside of the cleanroom, on top of the power distribution cabinet) and set the switch to the *OFF* position. All units in the rack should now be disconnected from the supply.
 
 ### AJA Sputtering System
+#### Stop all sources
+- In the control software, make sure to ramp down any gun that is active and close all shutters.
+- Turn off the power switch in each of the RF and DC sources.
+- Turn off the power to the heater stage.
 
+#### Stop Pumping
+- Turn off the load-lock roughing pump and stop the turbo pump of the load-lock from its control panel.
+- Switch off the power bracket to the main chamber pumps.
+- Wait for the loadlock turbo to get to a complete stop and open the breaker to that sup[plies the loadlock pumps.
+- Close the nitrogen valve that supplies the system vents.
+
+#### Shutting the system
+- Close the manual shutter and attach a cable tie to keep it in the closed position.
+- Close the control software and shutdown the computer
+- Turn off all remaining power supplies.
+- Close all remaining gas supply valves and chilled water intake.
 
 
 ## Troubleshooting
-The VAT Vacuum Control Gate valve between the deposition chamber and the turbo pump should be fully open whenever the pump is turned on or when is shutdown to ensure proper equalization of the pressure between the two sides of the turbo. Do not try to open this gate valve when there is a pressure differential in the pump. To equalize in vaccum, let the turbo pump stop by itself and then manually vent the chamber using the auxiliary vent valve. Open the VAT gate valve once atmospheric pressure is reached.
+
