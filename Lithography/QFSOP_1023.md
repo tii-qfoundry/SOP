@@ -48,7 +48,7 @@ Materials: (List all consumables).
 ### Chemical Hazards:
 |Chemicals|**Hazard Statements**| Safety Sign |
 |---|---|---|
-| Acetone | H225 (99.98%): Highly Flammable liquid and vapor, H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> |
+| Acetone | H225 (99.97%): Highly Flammable liquid and vapor, H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> |
 | Isopropanol | H225 (99.98%): Highly Flammable liquid and vapor, H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> |
 | NMP | H319 (99.98%): Causes serious eye irritation, H336 (100%): May cause drowsiness or dizziness H335 (100%): May cause respiratory irritation, H360 (97.78%): May damage fertility or the unborn child | <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg" width=50> <img src ="https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg" width=50> <img width=300> |
 
