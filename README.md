@@ -1,5 +1,13 @@
 # QFoundry Standard Operating Procedures
-New SOP must contain all relevant health and safety infoirmation pertaining the procedure, and comply with GHS labelling and classification to assign health risks. Before carrying any procedure, all engineering protocols need to be taken in place to ensure safe operation.
+New SOP must contain all relevant health and safety information pertaining to the procedure, and comply with GHS labeling and classification to assign health risks. Before carrying any procedure, all personnel must be trained and adhere to the following guidelines for an ISO Class 5 cleanroom:
+
+1. **Cleanroom Protocols**: Ensure SOPs include cleanroom entry and exit protocols, proper gowning procedures, and cleanroom behavior standards.
+2. **Contamination Control**: SOPs must specify steps for minimizing contamination, including surface cleaning, equipment sterilization, and handling of materials.
+3. **Air Quality Maintenance**: SOPs must include instructions for maintaining air quality, airflow management, and regular monitoring of particle counts.
+4. **Waste Management**: SOPs must describe proper waste disposal methods to prevent contamination and ensure compliance with environmental regulations.
+5. **Emergency Procedures**: Outline emergency response protocols for incidents such as chemical spills, equipment malfunctions, and medical emergencies.
+
+
 
 ## Lithography
 - [ ]  **QFSOP_1023**: Spin Coating [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_1023.md)
