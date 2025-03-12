@@ -1,4 +1,5 @@
 # QFoundry Standard Operating Procedures
+New SOP must contain all relevant health and safety infoirmation pertaining the procedure, and comply with GHS labelling and classification to assign health risks. Before carrying any procedure, all engineering protocols need to be taken in place to ensure safe operation.
 
 ## Lithography
 - [ ]  **QFSOP_1023**: Spin Coating [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Lithography/QFSOP_1023.md)
@@ -8,7 +9,7 @@
 
 ## Material Deposition
 - [x]  **QFSOP_0323**: Standard Sputtering [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Material_Deposition/QFSOP_0323.md)
-- [ ]  **QFSOP_0723**: EBeam vaporation of Aluminum Layers [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Material_Deposition/QFSOP_0723.md)
+- [ ]  **QFSOP_0723**: EBeam Evaporation of Aluminum Layers [SOP](https://github.com/tii-qfoundry/SOP/blob/main/Material_Deposition/QFSOP_0723.md)
 
 
 ## Material Removal
