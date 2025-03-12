@@ -5,15 +5,15 @@
 > [!WARNING]
 > Add a warning if necessary
 
-![GHS-environment_hazard](https://github.com/user-attachments/assets/97d96ca0-3e70-40f6-bd11-82833db53eb3)
-![GHS-Serious_health_hazard](https://github.com/user-attachments/assets/94b82d0d-5c50-405f-a46f-ece8cd7768e2)
-![GHS-health_atmospheric_hazard](https://github.com/user-attachments/assets/3550fb0c-dcdd-401a-b50f-7b3902fbf825)
-![GHS-toxic](https://github.com/user-attachments/assets/21d433f6-3f57-4625-8ebf-86a4338983a9)
-![GHS-corrosive](https://github.com/user-attachments/assets/983e6245-662e-4cd8-993e-442595e19103)
-![GHS-compressed_air](https://github.com/user-attachments/assets/38711323-85cc-411f-8bf3-b7e533037f9e)
-![GHS-oxidizing](https://github.com/user-attachments/assets/310c23a4-d01a-40c9-8cc4-763e5bc54e1e)
-![GHS-flamme](https://github.com/user-attachments/assets/da8b2d22-0196-42b6-a224-ba432b199e7f)
-![GHS-explosive](https://github.com/user-attachments/assets/44b80cd8-066f-43fc-b715-8cc2f4935edf)
+<img src="https://github.com/user-attachments/assets/97d96ca0-3e70-40f6-bd11-82833db53eb3" alt="GHS-environment_hazard" width="10%">
+<img src="https://github.com/user-attachments/assets/94b82d0d-5c50-405f-a46f-ece8cd7768e2" alt="GHS-Serious_health_hazard" width="10%">
+<img src="https://github.com/user-attachments/assets/3550fb0c-dcdd-401a-b50f-7b3902fbf825" alt="GHS-health_atmospheric_hazard" width="10%">
+<img src="https://github.com/user-attachments/assets/21d433f6-3f57-4625-8ebf-86a4338983a9" alt="GHS-toxic" width="10%">
+<img src="https://github.com/user-attachments/assets/983e6245-662e-4cd8-993e-442595e19103" alt="GHS-corrosive" width="10%">
+<img src="https://github.com/user-attachments/assets/38711323-85cc-411f-8bf3-b7e533037f9e" alt="GHS-compressed_air" width="10%">
+<img src="https://github.com/user-attachments/assets/310c23a4-d01a-40c9-8cc4-763e5bc54e1e" alt="GHS-oxidizing" width="10%">
+<img src="https://github.com/user-attachments/assets/da8b2d22-0196-42b6-a224-ba432b199e7f" alt="GHS-flamme" width="10%">
+<img src="https://github.com/user-attachments/assets/44b80cd8-066f-43fc-b715-8cc2f4935edf" alt="GHS-explosive" width="10%">
 
 | Reference | Publication Date | Revision |
 |----|----|----|
