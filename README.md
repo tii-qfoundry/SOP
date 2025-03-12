@@ -7,7 +7,7 @@ New SOP must contain all relevant health and safety information pertaining to th
 4. **Waste Management**: SOPs must describe proper waste disposal methods to prevent contamination and ensure compliance with environmental regulations.
 5. **Emergency Procedures**: Outline emergency response protocols for incidents such as chemical spills, equipment malfunctions, and medical emergencies.
 
-> @note
+> [!NOTE]
 > SOPs are not microfabrication protocols; please refer to the specific protocol of the process being carried out for detailed descriptions.
 
 ## Lithography
